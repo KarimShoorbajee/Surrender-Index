@@ -1,0 +1,46 @@
+
+Date,Tm,Opp,Quarter,Time,Down,ToGo,Location,Score,Detail,Yds,EPB,EPA,Diff,PYds,PRYds
+2018-12-30,Bills,Dolphins,4,15:00,4,5,BUF 30,28-17,Matt Darr punts 44 yards fair catch by Danny Amendola,,-1.370,-0.670,.70,44,
+2018-12-30,Dolphins,Bills,4,12:39,4,12,MIA 42,17-28,Matt Haack punts 28 yards,,-0.590,-0.940,-0.35,28,
+2018-12-30,Dolphins,Bills,4,6:13,4,8,MIA 27,17-42,Matt Haack punts 25 yards,,-1.570,-2.130,-0.56,25,
+2018-12-30,Broncos,Chargers,4,15:00,4,9,SDG 47,3-14,Colby Wadman punts 38 yards,,0.130,0.380,.25,38,
+2018-12-30,Chargers,Broncos,4,12:30,4,20,SDG 18,14-3,Donnie Jones punts 41 yards returned by River Cracraft for 3 yards (tackle by Derek Watt),,-2.240,-1.860,.38,41,3
+2018-12-30,Lions,Packers,4,13:33,4,6,DET 25,24-0,Sam Martin punts 47 yards returned by Josh Jackson for 9 yards (tackle by Tracy Walker). Penalty on Tony Brown: Illegal Block Above the Waist 10 yards,,-1.700,-0.040,1.66,47,9
+2018-12-30,Jaguars,Texans,4,14:30,4,12,JAX 19,3-17,Logan Cooke punts 46 yards fair catch by DeAndre Carter,,-2.140,-1.270,.87,46,
+2018-12-30,Jaguars,Texans,4,9:26,4,20,JAX 25,3-20,Logan Cooke punts 50 yards returned by DeAndre Carter for 30 yards (tackle by Quenton Meeks),,-1.700,-2.590,-0.89,50,30
+2018-12-30,Texans,Jaguars,4,8:18,4,7,JAX 42,20-3,Trevor Daniel punts 31 yards fair catch by Dede Westbrook,,0.460,0.370,-0.09,31,
+2018-12-30,Raiders,Chiefs,4,10:13,4,6,RAI 44,3-35,Johnny Townsend punts 56 yards touchback,,-0.460,-0.280,.18,56,
+2018-12-30,Panthers,Saints,4,2:00,4,8,CAR 27,33-14,Michael Palardy punts 57 yards returned by Tommylee Lewis for 16 yards (tackle by Andre Smith),,-1.570,-1.070,.50,57,16
+2018-12-30,Jets,Patriots,4,12:43,4,15,NYJ 31,3-28,Lac Edwards punts 45 yards returned by Julian Edelman for 12 yards (tackle by Rontez Miles),,-1.310,-1.330,-0.02,45,12
+2018-12-30,Jets,Patriots,4,8:46,4,10,NYJ 27,3-31,Lac Edwards punts 47 yards returned by Julian Edelman for 10 yards (tackle by Rontez Miles),,-1.570,-1.330,.24,47,10
+2018-12-30,Jets,Patriots,4,2:22,4,5,NYJ 43,3-38,Lac Edwards punts 47 yards fair catch by Julian Edelman,,-0.520,0.380,.90,47,
+2018-12-30,Patriots,Jets,4,0:35,4,14,NWE 6,38-3,Ryan Allen punts 39 yards,,-2.490,-2.590,-0.10,39,
+2018-12-30,Cowboys,Giants,4,15:00,4,11,DAL 43,21-18,Chris Jones punts 38 yards fair catch by Corey Coleman,,-0.520,-0.150,.37,38,
+2018-12-30,Colts,Titans,4,13:36,4,10,CLT 48,24-17,Rigoberto Sanchez punts 49 yards out of bounds,,-0.190,0.380,.57,49,
+2018-12-30,Rams,49ers,4,0:32,4,19,RAM 46,48-32,Johnny Hekker punts 37 yards out of bounds,,-0.320,0.060,.38,37,
+2018-12-30,Ravens,Browns,4,2:00,4,11,RAV 24,26-24,Sam Koch punts 51 yards returned by Antonio Callaway for 1 yard (tackle by Anthony Levine),,-1.770,-0.670,1.10,51,1
+2018-12-30,Seahawks,Cardinals,4,12:35,4,1,SEA 42,21-21,Michael Dickson punts 58 yards touchback,,-0.590,-0.280,.31,58,
+2018-12-30,Buccaneers,Falcons,4,14:57,4,4,TAM 31,20-24,Bryan Anger punts 44 yards fair catch by Justin Hardy,,-1.310,-0.610,.70,44,
+2018-12-30,Redskins,Eagles,4,14:41,4,10,WAS 40,0-17,Tress Way punts 35 yards,,-0.720,-0.610,.11,35,
+2018-12-30,Eagles,Redskins,4,13:02,4,12,PHI 23,17-0,Cameron Johnston punts 42 yards returned by Jamison Crowder for 11 yards (tackle by LaRoy Reynolds),,-1.830,-1.990,-0.16,42,110,-2.590,-0.45,45,19
+2018-12-30,Titans,Colts,3,8:52,4,5,OTI 49,10-24,Brett Kern punts 36 yards fair catch by Chester Rogers,,-0.130,0.220,.35,36,
+2018-12-30,Colts,Titans,3,7:05,4,2,CLT 23,24-10,Rigoberto Sanchez punts 45 yards out of bounds,,-1.830,-1.070,.76,45,
+2018-12-30,Titans,Colts,3,5:41,4,3,OTI 39,10-24,Brett Kern punts 54 yards returned by Chester Rogers for no gain,,-0.780,0.380,1.16,54,
+2018-12-30,Colts,Titans,3,2:36,4,22,CLT 25,24-10,Rigoberto Sanchez punts 40 yards returned by Adoree' Jackson for 10 yards (tackle by Nyheim Hines),,-1.700,-1.930,-0.23,40,10
+2018-12-30,Bengals,Steelers,3,13:38,4,15,CIN 12,10-3,Kevin Huber punts 43 yards fair catch by Ryan Switzer,,-2.490,-1.930,.56,43,
+2018-12-30,Steelers,Bengals,3,12:08,4,6,PIT 49,3-10,Jordan Berry punts 37 yards out of bounds,,-0.130,0.280,.41,37,
+2018-12-30,Bengals,Steelers,3,8:21,4,21,CIN 24,10-3,Kevin Huber punts 35 yards returned by Ryan Switzer for 6 yards (tackle by Clark Harris),,-1.770,-2.060,-0.29,35,6
+2018-12-30,Steelers,Bengals,3,6:52,4,5,CIN 48,3-10,Jordan Berry punts 34 yards fair catch by Alex Erickson. Penalty on Darrius Heyward-Bey: Illegal Block Above the Waist 10 yards,,0.070,-0.540,-0.61,34,
+2018-12-30,Bengals,Steelers,3,5:30,4,6,CIN 28,10-3,Kevin Huber punts 50 yards returned by Ryan Switzer for 4 yards (tackle by Mark Walton),,-1.500,-0.670,.83,50,4
+2018-12-30,Bengals,Steelers,3,1:01,4,2,CIN 29,10-10,Kevin Huber punts 48 yards fair catch by Ryan Switzer,,-1.440,-0.480,.96,48,
+2018-12-30,49ers,Rams,3,0:39,4,22,SFO 13,17-45,Bradley Pinion punts 55 yards returned by Jojo Natson for 16 yards (tackle by Cassius Marsh),,-2.490,-2.130,.36,55,16
+2018-12-30,Ravens,Browns,3,12:50,4,14,RAV 32,20-7,Sam Koch punts 53 yards returned by Antonio Callaway for 37 yards (tackle by Maxx Williams),,-1.240,-2.390,-1.15,53,37
+2018-12-30,Browns,Ravens,3,5:30,4,11,CLE 34,14-23,Britton Colquitt punts 45 yards fair catch by Cyrus Jones,,-1.110,-0.340,.77,45,
+2018-12-30,Ravens,Browns,3,3:04,4,2,RAV 29,23-14,Sam Koch punts 56 yards returned by Antonio Callaway for 8 yards,,-1.440,-0.480,.96,56,8
+2018-12-30,Seahawks,Cardinals,3,13:54,4,4,SEA 31,14-13,Michael Dickson punts 44 yards returned by Pharoh Cooper for -6 yards (tackle by Maurice Alexander),,-1.310,-0.150,1.16,44,-6
+2018-12-30,Cardinals,Seahawks,3,11:50,4,2,CRD 27,13-14,Andy Lee punts 50 yards fair catch by Tyler Lockett,,-1.570,-0.480,1.09,50,
+2018-12-30,Cardinals,Seahawks,3,7:38,4,13,SEA 48,13-14,Andy Lee punts 46 yards,,0.070,0.380,.31,46,
+2018-12-30,Cardinals,Seahawks,3,1:54,4,16,CRD 38,13-21,Andy Lee punts 62 yards touchback,,-0.850,-0.280,.57,62,
+2018-12-30,Seahawks,Cardinals,3,0:21,4,5,SEA 25,21-19,Michael Dickson punts blocked by Cameron Malveaux recovered by Dennis Gardeck touchdown,,-1.700,-7.000,-5.30,0,
+2018-12-30,Eagles,Redskins,3,10:31,4,6,WAS 45,10-0,Cameron Johnston punts 36 yards fair catch by Jamison Crowder,,0.270,0.380,.11,36,
+2018-12-30,Redskins,Eagles,3,9:00,4,3,WAS 16,0-10,Tress Way punts 52 yards,,-2.390,-1.070,1.32,52,

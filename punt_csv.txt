@@ -1,0 +1,93 @@
+
+Date,Tm,Opp,Quarter,Time,Down,ToGo,Location,Score,Detail,Yds,EPB,EPA,Diff,PYds,PRYds
+2000-09-03,Chargers,Raiders,1,11:00,4,5,SDG 20,0-0,Darren Bennett punts 63 yards returned by Darrien Gordon for -2 yards. Darrien Gordon fumbles recovered by Calvin Branch at OAK-8 (tackle by Reggie Davis),0,-2.030,0.280,2.31,63,-2
+2000-09-03,49ers,Falcons,1,8:00,4,1,SFO 25,7-3,Chad Stanley punts 39 yards fair catch by Tim Dwight,,-1.700,-1.330,.37,39,
+2000-09-03,49ers,Falcons,1,1:47,4,4,SFO 26,7-6,Chad Stanley punts 33 yards fair catch by Tim Dwight,,-1.630,-1.660,-0.03,33,
+2000-09-03,Bills,Titans,1,13:36,4,10,BUF 14,0-0,Chris Mohr punts 56 yards returned by Derrick Mason for 10 yards (tackle by Keith Newman),,-2.470,-1.600,.87,56,10
+2000-09-03,Bills,Titans,1,11:16,4,9,BUF 43,0-0,Chris Mohr punts 46 yards returned by Derrick Mason for 14 yards (tackle by Sheldon Jackson),,-0.520,-0.610,-0.09,46,14
+2000-09-03,Titans,Bills,1,8:24,4,5,OTI 30,0-0,Craig Hentrich punts 35 yards fair catch by Chris Watson,,-1.370,-1.270,.10,35,
+2000-09-03,Bills,Titans,1,6:12,4,6,BUF 39,0-0,Chris Mohr punts 47 yards returned by Derrick Mason for 18 yards (tackle by Sheldon Jackson),,-0.780,-1.070,-0.29,47,18
+2000-09-03,Titans,Bills,1,4:19,4,1,OTI 41,0-0,Craig Hentrich punts 30 yards fair catch by Chris Watson,,-0.650,-0.870,-0.22,30,
+2000-09-03,Jaguars,Browns,1,12:04,4,10,CLE 41,0-0,Steve Lindsey punts 41 yards touchback,,0.530,-0.280,-0.81,41,
+2000-09-03,Browns,Jaguars,1,10:55,4,2,CLE 28,0-0,Chris Gardocki punts 66 yards returned by Reggie Barlow for 9 yards (tackle by Tyrone Rogers),,-1.500,0.220,1.72,66,9
+2000-09-03,Jaguars,Browns,1,9:16,4,6,JAX 19,0-0,Steve Lindsey punts 46 yards fair catch by Dennis Northcutt,,-2.140,-1.270,.87,46,
+2000-09-03,Browns,Jaguars,1,4:48,4,13,CLE 43,0-0,Chris Gardocki punts 54 yards,,-0.520,0.380,.90,54,
+2000-09-03,Cowboys,Eagles,1,8:24,4,23,DAL 47,0-7,Micah Knorr punts 31 yards out of bounds,,-0.260,-0.410,-0.15,31,
+2000-09-03,Eagles,Cowboys,1,5:53,4,3,DAL 41,7-0,Sean Landeta punts 41 yards touchback,,0.530,-0.280,-0.81,41,
+2000-09-03,Cowboys,Eagles,1,4:56,4,7,DAL 23,0-7,Micah Knorr punts 51 yards returned by Brian Mitchell for 13 yards (tackle by Darren Hambrick),,-1.830,-1.530,.30,51,13
+2000-09-03,Packers,Jets,1,11:06,4,6,NYJ 46,0-0,Josh Bidwell punts 35 yards fair catch by Dedric Ward,,0.200,0.370,.17,35,
+2000-09-03,Chiefs,Colts,1,15:00,4,10,KAN 20,0-0,Todd Sauerbrun punts 52 yards returned by Payton Williams for 8 yards (tackle by Mike Maslowski),,-2.030,-1.330,.70,52,8
+2000-09-03,Chiefs,Colts,1,9:11,4,2,KAN 18,0-0,Todd Sauerbrun punts 52 yards returned by Payton Williams for 17 yards (tackle by Mike Maslowski),,-2.240,-2.060,.18,52,17
+2000-09-03,Chiefs,Colts,1,5:44,4,11,KAN 46,0-0,Todd Sauerbrun punts 46 yards fair catch by Payton Williams,,-0.320,0.380,.70,46,
+2000-09-03,Lions,Saints,1,11:58,4,6,DET 45,0-0,John Jett punts 37 yards returned by Chad Morton for 4 yards (tackle by Lamar Campbell),,-0.390,-0.410,-0.02,37,4
+2000-09-03,Saints,Lions,1,10:43,4,11,NOR 21,0-0,Toby Gowin punts 46 yards returned by Desmond Howard for 3 yards (tackle by Corey A. Harris),,-1.960,-1.330,.63,46,3
+2000-09-03,Lions,Saints,1,7:45,4,1,DET 29,0-7,John Jett punts 37 yards returned by Chad Morton for 3 yards (tackle by Clint Kriewaldt),,-1.440,-1.400,.04,37,3
+2000-09-03,Saints,Lions,1,4:37,4,1,NOR 46,7-0,Toby Gowin punts 54 yards touchback,,-0.320,-0.280,.04,54,
+2000-09-03,Lions,Saints,1,1:23,4,12,DET 31,0-7,John Jett punts 48 yards returned by Chad Morton for 17 yards (tackle by Sedrick Irvin),,-1.310,-1.470,-0.16,48,17
+2000-09-03,Buccaneers,Patriots,1,10:45,4,2,TAM 41,0-3,Mark Royals punts 48 yards returned by Troy Brown for 39 yards (tackle by Mark Royals),,-0.650,-2.260,-1.61,48,39
+2000-09-03,Patriots,Buccaneers,1,10:32,4,18,TAM 42,3-0,Lee Johnson punts 32 yards fair catch by Karl Williams,,0.460,0.380,-0.08,32,
+2000-09-03,Buccaneers,Patriots,1,4:19,4,12,NWE 41,0-3,Mark Royals punts 41 yards touchback,,0.530,-0.280,-0.81,41,
+2000-09-03,Patriots,Buccaneers,1,4:05,4,8,TAM 43,3-0,Lee Johnson punts 43 yards touchback,,0.400,-0.280,-0.68,43,
+2000-09-03,Cardinals,Giants,1,13:52,4,8,CRD 37,0-0,Scott Player punts 41 yards returned by Tiki Barber for no gain,,-0.910,-0.410,.50,41,
+2000-09-03,Giants,Cardinals,1,10:59,4,7,CRD 39,0-0,Brad Maynard punts 33 yards,,0.660,0.380,-0.28,33,
+2000-09-03,Cardinals,Giants,1,7:23,4,4,CRD 35,0-0,Scott Player punts 49 yards returned by Tiki Barber for 18 yards (tackle by Joel Makovicka),,-1.040,-1.200,-0.16,49,18
+2000-09-03,Steelers,Ravens,1,13:34,4,4,PIT 44,0-0,Josh Miller punts 49 yards returned by Jamal Lewis for 16 yards (tackle by Scott Shields),,-0.460,-0.480,-0.02,49,16
+2000-09-03,Ravens,Steelers,1,11:03,4,9,RAV 49,0-0,Kyle Richardson punts 51 yards touchback,,-0.130,-0.280,-0.15,51,
+2000-09-03,Steelers,Ravens,1,6:39,4,15,PIT 19,0-3,Josh Miller punts 47 yards returned by Jamal Lewis for 18 yards (tackle by Jason Simmons). Penalty on Mike Vrabel: Illegal Use of Hands 10 yards,,-2.140,-3.050,-0.91,47,18
+2000-09-03,Steelers,Ravens,1,2:58,4,6,PIT 24,0-10,Josh Miller punts 43 yards returned by Jamal Lewis for 3 yards (tackle by Richard Huntley). Penalty on Anthony Davis: Offensive Holding 10 yards,,-1.770,-0.670,1.10,43,3
+2000-09-03,Ravens,Steelers,1,15:00,4,1,RAV 48,10-0,Kyle Richardson punts 37 yards,,-0.190,0.220,.41,37,
+2000-09-03,Raiders,Chargers,1,15:00,4,17,RAI 32,0-0,Shane Lechler punts 55 yards returned by Jeff Graham for no gain,,-1.240,0.320,1.56,55,
+2000-09-03,Chargers,Raiders,1,13:42,4,8,SDG 15,0-0,Darren Bennett punts 33 yards. Penalty on Travian Smith: Offensive Holding 10 yards,,-2.440,-1.730,.71,33,
+2000-09-03,Raiders,Chargers,1,12:53,4,5,RAI 47,0-0,Shane Lechler punts 38 yards fair catch by Jeff Graham,,-0.260,0.220,.48,38,
+2000-09-03,Raiders,Chargers,1,9:08,4,2,RAI 22,0-0,Shane Lechler punts 53 yards (tackle by Zack Crockett). Penalty on Reggie Rusk: Offensive Holding 10 yards,,-1.900,-0.410,1.49,53,7
+2000-09-03,Raiders,Chargers,1,3:40,4,6,RAI 44,0-0,Shane Lechler punts 45 yards fair catch by Jeff Graham,,-0.460,0.370,.83,45,
+2000-09-03,Chargers,Raiders,1,15:00,4,9,RAI 48,0-0,Darren Bennett punts 45 yards,,0.070,0.380,.31,45,
+2000-09-03,Redskins,Panthers,1,7:36,4,10,WAS 40,7-7,Tommy Barnhardt punts 27 yards,,-0.720,-1.140,-0.42,27,
+2000-09-03,Redskins,Panthers,1,1:31,4,8,WAS 30,7-10,Tommy Barnhardt punts 52 yards,,-1.370,-0.040,1.33,52,
+2000-09-04,Rams,Broncos,1,13:24,4,4,RAM 25,0-0,John Baker punts 34 yards fair catch by Deltha O'Neal,,-1.700,-1.660,.04,34,
+2000-09-04,Broncos,Rams,1,2:24,4,1,DEN 28,7-6,Tom Rouen punts 58 yards returned by Az-Zahir Hakim for 86 yards touchdown,,-1.500,-7.000,-5.50,58,86
+Date,Tm,Opp,Quarter,Time,Down,ToGo,Location,Score,Detail,Yds,EPB,EPA,Diff,PYds,PRYds
+2000-09-03,Cardinals,Giants,2,10:24,4,11,CRD 41,0-7,Scott Player punts 47 yards muffed catch by Tiki Barber recovered by Emmanuel McDaniel and returned for no gain,0,-0.650,0.370,1.02,47,
+2000-09-03,49ers,Falcons,2,9:41,4,3,SFO 14,7-9,Chad Stanley punts 49 yards returned by Tim Dwight for 15 yards (tackle by Pierson Prioleau),,-2.470,-2.390,.08,49,15
+2000-09-03,49ers,Falcons,2,5:38,4,5,SFO 29,7-12,Chad Stanley punts 39 yards returned by Tim Dwight for 6 yards (tackle by Edward Thomas),,-1.440,-1.470,-0.03,39,6
+2000-09-03,Titans,Bills,2,9:13,4,3,OTI 46,0-7,Craig Hentrich punts 46 yards,,-0.320,0.380,.70,46,
+2000-09-03,Bills,Titans,2,7:38,4,9,BUF 9,7-0,Chris Mohr punts 34 yards out of bounds. Penalty on Raion Hill: Offensive Holding (Declined),,-2.490,-2.720,-0.23,34,
+2000-09-03,Browns,Jaguars,2,9:16,4,6,CLE 36,0-7,Chris Gardocki punts 49 yards returned by Reggie Barlow for 8 yards (tackle by Marty Moore),,-0.980,-0.480,.50,49,8
+2000-09-03,Jaguars,Browns,2,7:44,4,8,JAX 37,7-0,Steve Lindsey punts 30 yards,,-0.910,-1.140,-0.23,30,
+2000-09-03,Cowboys,Eagles,2,12:26,4,21,DAL 18,0-21,Micah Knorr punts 46 yards fair catch by Brian Mitchell,,-2.240,-1.330,.91,46,
+2000-09-03,Cowboys,Eagles,2,4:54,4,11,DAL 24,0-24,Micah Knorr punts 47 yards returned by Brian Mitchell for 12 yards (tackle by Izell Reese). Penalty on Mike Caldwell: Offensive Holding 10 yards,,-1.770,-0.150,1.62,47,12
+2000-09-03,Eagles,Cowboys,2,1:10,4,18,PHI 34,24-3,Sean Landeta punts 47 yards returned by Joey Galloway for 2 yards (tackle by Brian Mitchell),,-1.110,-0.340,.77,47,2
+2000-09-03,Packers,Jets,2,13:13,4,13,GNB 40,7-7,Josh Bidwell punts 39 yards fair catch by Dedric Ward,,-0.720,-0.340,.38,39,
+2000-09-03,Jets,Packers,2,9:11,4,15,NYJ 41,7-7,Tom Tupa punts 45 yards returned by Allen Rossum for 43 yards (tackle by John Abraham),,-0.650,-2.720,-2.07,45,43
+2000-09-03,Jets,Packers,2,4:24,4,7,NYJ 30,7-10,Tom Tupa punts 43 yards. Penalty on Tod McBride: Defensive Holding 10 yards,,-1.370,-0.040,1.33,43,
+2000-09-03,Packers,Jets,2,3:22,4,9,GNB 19,10-7,Josh Bidwell punts 30 yards,,-2.140,-2.320,-0.18,30,
+2000-09-03,Chiefs,Colts,2,9:17,4,14,CLT 35,0-7,Todd Sauerbrun punts 35 yards touchback,,0.970,-0.280,-1.25,35,
+2000-09-03,Colts,Chiefs,2,7:03,4,15,CLT 15,7-0,Hunter Smith punts 53 yards returned by Larry Parker for 17 yards (tackle by Justin Snow),,-2.440,-2.190,.25,53,17
+2000-09-03,Colts,Chiefs,2,3:05,4,6,CLT 44,7-7,Hunter Smith punts 56 yards touchback,,-0.460,-0.280,.18,56,
+2000-09-03,Chiefs,Colts,2,1:02,4,5,KAN 45,7-7,Todd Sauerbrun punts 44 yards. Penalty on Larry Parker: Personal Foul 15 yards,,-0.390,-0.670,-0.28,44,
+2000-09-03,Dolphins,Seahawks,2,6:40,4,6,SEA 44,16-0,Matt Turk punts 44 yards touchback,,0.330,-0.280,-0.61,44,
+2000-09-03,Vikings,Bears,2,14:46,4,7,CHI 35,6-7,Mitch Berger punts 26 yards out of bounds,,0.970,0.380,-0.59,26,
+2000-09-03,Bears,Vikings,2,10:47,4,2,MIN 48,7-6,Brent Bartholomew punts 29 yards fair catch by David Palmer,,0.070,-0.150,-0.22,29,
+2000-09-03,Vikings,Bears,2,9:10,4,13,MIN 16,6-7,Mitch Berger punts 52 yards returned by Glyn Milburn for 12 yards (tackle by Craig Sauer),,-2.390,-1.860,.53,52,12
+2000-09-03,Saints,Lions,2,12:44,4,16,DET 43,7-0,Toby Gowin punts 40 yards,,0.400,0.380,-0.02,40,
+2000-09-03,Lions,Saints,2,10:31,4,17,DET 1,0-7,John Jett punts 51 yards returned by Chad Morton for 7 yards (tackle by Brock Olivo),,-2.490,-2.590,-0.10,51,7
+2000-09-03,Saints,Lions,2,0:09,4,16,NOR 48,7-6,Toby Gowin punts 52 yards touchback. Penalty on Brock Olivo: Offensive Holding,,-0.190,-2.130,-1.94,52,
+2000-09-03,Patriots,Buccaneers,2,10:30,4,5,TAM 49,3-7,Lee Johnson punts 40 yards fair catch by Karl Williams,,0.000,0.380,.38,40,
+2000-09-03,Buccaneers,Patriots,2,8:55,4,3,TAM 16,7-9,Mark Royals punts 50 yards returned by Troy Brown for 66 yards touchdown,,-2.390,-7.000,-4.61,50,66
+2000-09-03,Buccaneers,Patriots,2,3:32,4,8,NWE 37,7-10,Mark Royals punts 29 yards,,0.790,0.380,-0.41,29,
+2000-09-03,Patriots,Buccaneers,2,1:50,4,4,NWE 14,10-7,Lee Johnson punts 47 yards,,-2.470,-2.260,.21,47,11
+2000-09-03,Cardinals,Giants,2,13:19,4,4,CRD 40,0-7,Scott Player punts 37 yards fair catch by Tiki Barber,,-0.720,-0.480,.24,37,
+2000-09-03,Giants,Cardinals,2,11:34,4,11,NYG 22,7-0,Brad Maynard punts 52 yards returned by Mac Cody for 16 yards (tackle by Sam Garnes),,-1.900,-1.730,.17,52,16
+2000-09-03,Giants,Cardinals,2,0:15,4,10,NYG 15,14-0,Brad Maynard punts 49 yards fair catch by Mac Cody,,-2.440,-1.330,1.11,49,
+2000-09-03,Steelers,Ravens,2,14:52,4,5,PIT 44,0-10,Josh Miller punts 56 yards touchback,,-0.460,-0.280,.18,56,
+2000-09-03,Ravens,Steelers,2,9:37,4,10,PIT 43,10-0,Kyle Richardson punts 32 yards,,0.400,0.370,-0.03,32,
+2000-09-03,Steelers,Ravens,2,8:40,4,2,PIT 19,0-10,Josh Miller punts 63 yards returned by Jamal Lewis for 7 yards (tackle by Joey Porter),,-2.140,-0.610,1.53,63,7
+2000-09-03,Raiders,Chargers,2,14:41,4,10,SDG 46,0-0,Shane Lechler punts 29 yards fair catch by Jeff Graham,,0.200,0.060,-0.14,29,
+2000-09-03,Chargers,Raiders,2,9:44,4,12,SDG 26,0-0,Darren Bennett punts 50 yards returned by Darrien Gordon for 7 yards (tackle by Reggie Rusk),,-1.630,-1.000,.63,50,7
+2000-09-03,Raiders,Chargers,2,7:42,4,2,RAI 50,0-0,Shane Lechler punts 50 yards touchback,,-0.060,-0.280,-0.22,50,
+2000-09-03,Chargers,Raiders,2,3:46,4,8,SDG 45,0-0,Darren Bennett punts 55 yards touchback,,-0.390,-0.280,.11,55,
+2000-09-03,Panthers,Redskins,2,15:00,4,2,WAS 50,10-7,Ken Walter punts 42 yards returned by Deion Sanders for 8 yards (tackle by Deon Humphrey),,-0.060,0.140,.20,42,8
+2000-09-03,Redskins,Panthers,2,12:23,4,1,WAS 25,7-10,Tommy Barnhardt punts 37 yards. Penalty on Rashard Anderson: Defensive Holding 10 yards,,-1.700,-0.810,.89,37,
+2000-09-03,Panthers,Redskins,2,11:24,4,5,CAR 33,10-7,Ken Walter punts 46 yards fair catch by Deion Sanders,,-1.180,-0.340,.84,46,
+2000-09-03,Redskins,Panthers,2,1:19,4,6,WAS 35,7-10,Tommy Barnhardt punts 45 yards fair catch by Michael Bates,,-1.040,-0.280,.76,45,
+2000-09-03,Panthers,Redskins,2,0:25,4,1,CAR 29,10-7,Ken Walter punts 52 yards returned by Deion Sanders for 8 yards (tackle by Damien Richardson),,-1.440,-0.740,.70,52,8
