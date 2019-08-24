@@ -8,7 +8,7 @@ def field_pos_mult(loc, punt_team):
     else:
         abr,yds_str = loc.split()
         yds = int(yds_str)
-        if team_abbr[abr] == punt_team:
+        if abr == punt_team:
             if yds < 41:
                 return 1
             else:
@@ -75,4 +75,9 @@ def clock_mult(time, quarter, score):
             return 1
 
 def surrender_index(location, punt_team, score, time, quarter, dist):
+    print("here are the values in order:")
+    print(field_pos_mult(location,punt_team))
+    print(dist_from_first_mult(dist))
+    print(score_mult(score,punt_team))
+    print(clock_mult(time,quarter,score))
     return field_pos_mult(location,punt_team)*dist_from_first_mult(dist)*score_mult(score,punt_team)*clock_mult(time,quarter,score)

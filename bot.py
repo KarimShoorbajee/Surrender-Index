@@ -5,6 +5,38 @@ import json
 import game
 from config import key,key_secret,token,token_secret
 from sindex_lib import surrender_index
+from team_dict import team_abbr
+
+
+def get_clean_time(game_clock):
+        if game_clock[0] == "0":
+            return game_clock[1:]
+        else:
+            return game_clock
+
+def get_ordinal_indicator(quarter):
+    if quarter == 1:
+        return "the 1st quarter"
+    elif quarter == 2:
+        return "the 2nd quarter"
+    elif quarter == 3:
+        return "the 3rd quarter"
+    elif quarter  == 4:
+        return "the 4th quarter"
+    else:
+        return "overtime"
+
+def get_punt_team_full_name(punt_team):
+    return team_abbr[punt_team]
+
+def get_nice_location(location, punt_team):
+    half,yds = location.split()
+    if punt_team == half:
+        return "own {}".format(yds)
+    else:
+        return "opponent's {}".format(yds)
+
+
 
 auth = tweepy.OAuthHandler(key,key_secret)
 auth.set_access_token(token,token_secret)
@@ -31,7 +63,7 @@ while True:
 
     #check if there are new games
     games = root.find('gms')
-    if games.attrib['w'] is not c_week:
+    if games.attrib['w'] != c_week:
         # new gameweek!
         # empty the current games directory and put all the new games in there.
         c_week_gms = {}
@@ -44,7 +76,7 @@ while True:
     
     # update the dictionary of currently played games
     for g in c_week_gms:
-        if c_week_gms[g]['q'].isdigit():
+        if c_week_gms[g]['q'].isdigit() or c_week_gms[g]['q'] == "H":
             # if the quarter is a digit (1,2,3,4,5) that means there's a quarter in progress (the game isn't over/has started/is not in halftime)
             if not g in c_gms.keys():
                 c_gms[g] = c_week_gms[g]
@@ -68,7 +100,7 @@ while True:
         game_json = json.loads(resp.content)
         drivecount = game_json[g]["drives"]["crntdrv"]
         #there were some new drives since last time I checked
-        if (drivecount is not c_gms_md[g].dcount):
+        if (drivecount != c_gms_md[g].dcount):
             c_gms_md[g].dcount = drivecount
             drive = game_json[g]["drives"][str(c_gms_md[g].dcount)]
             result = drive["result"] 
@@ -84,10 +116,14 @@ while True:
                 punt_team = drive["posteam"]
                 pt_score = game_json[g]["home"]["score"]["T"]
                 opp_score = game_json[g]["away"]["score"]["T"]
-                if punt_team is not game_json[g]["home"]["abbr"]:
+                opp_team  = game_json[g]["away"]["abbr"]
+                punt_team_home = True
+                if punt_team != game_json[g]["home"]["abbr"]:
                     temp = pt_score
                     pt_score = opp_score
                     opp_score = temp
+                    opp_team = game_json[g]["home"]["abbr"]
+                    punt_team_home = False
                 score = "{} - {}".format(pt_score,opp_score)
                 game_clock = last_play["time"]
                 quarter = last_play["qtr"]
@@ -95,7 +131,19 @@ while True:
                 print("this is the distance {}".format(dist))
                 sindex = surrender_index(location, punt_team, score, game_clock, quarter, dist)
                 api.update_status(
-                    status = "index: {}, loc: {}, punt_team: {}, score: {}, game_clock: {}, quarter: {}, dist: {}".format(str(round(sindex,2)),location,punt_team,score,game_clock,quarter,dist)
+                    status = "{} {}-{} {}.\n{} in {}.\n{} punts with {} yards to go at their {} for a Surrender Index of {}.".format(
+                        punt_team,
+                        pt_score,
+                        opp_score,
+                        opp_team,
+                        get_clean_time(game_clock),
+                        get_ordinal_indicator(quarter),
+                        get_punt_team_full_name(punt_team),
+                        dist,
+                        get_nice_location(location, punt_team),
+                        round(sindex,2)
+                    )
                 )
     time.sleep(60)
 
+    
