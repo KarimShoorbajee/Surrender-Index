@@ -30,11 +30,13 @@ def get_punt_team_full_name(punt_team):
     return team_abbr[punt_team]
 
 def get_nice_location(location, punt_team):
+    if location == '50':
+        return "the 50"
     half,yds = location.split()
     if punt_team == half:
-        return "own {}".format(yds)
+        return "their own {}".format(yds)
     else:
-        return "opponent's {}".format(yds)
+        return "their opponent's {}".format(yds)
 
 
 
@@ -42,6 +44,7 @@ auth = tweepy.OAuthHandler(key,key_secret)
 auth.set_access_token(token,token_secret)
 
 api = tweepy.API(auth)
+
 # the week #
 c_week = "-1"
 # the games being played this week
@@ -88,8 +91,10 @@ while True:
                 dist = last_play["ydstogo"]
                 print("this is the distance {}".format(dist))
                 sindex = surrender_index(location, punt_team, score, game_clock, quarter, dist)
-                api.update_status(
-                    status = "{} {}-{} {}.\n{} in {}.\n{} punts with {} yards to go at their {} for a Surrender Index of {}.".format(
+
+                # tweet da ting
+                punt_tweet = api.update_status(
+                    status = "{} {}-{} {}\n{} in {}\n\n{} punt with {} yards to go at {} for a Surrender Index of {}".format(
                         punt_team,
                         pt_score,
                         opp_score,
@@ -102,6 +107,8 @@ while True:
                         round(sindex,2)
                     )
                 )
+
+
                 
     #get xml with current week game data
     resp = requests.get("http://www.nfl.com/liveupdate/scorestrip/ss.xml")

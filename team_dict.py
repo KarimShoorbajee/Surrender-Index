@@ -1,7 +1,15 @@
+'''
+Dictionary converting abbreviations to team names.
+Includes keys for the abbreviations used on Pro Football Reference and nfl liveupdate
+(Many of them are the same so only one key was needed)
+'''
+
 team_abbr = {
     "CRD": "Cardinals",
+    "ARI": "Cardinals",
     "ATL": "Falcons",
     "RAV": "Ravens",
+    "BAL": "Ravens",
     "BUF": "Bills",
     "CAR": "Panthers",
     "CHI": "Bears",
@@ -11,24 +19,37 @@ team_abbr = {
     "DEN": "Broncos",
     "DET": "Lions",
     "GNB": "Packers",
+    "GB": "Packers",
     "HTX": "Texans",
+    "HOU": "Texans",
     "CLT": "Colts",
+    "IND": "Colts",
     "JAX": "Jaguars",
     "KAN": "Chiefs",
+    "KC": "Chiefs",
     "MIA": "Dolphins",
     "MIN": "Vikings",
     "NWE": "Patriots",
+    "NE": "Patriots",
     "NOR": "Saints",
+    "NO": "Saints",
     "NYG": "Giants",
     "NYJ": "Jets",
     "RAI": "Raiders",
+    "OAK": "Raiders",
     "PHI": "Eagles",
     "PIT": "Steelers",
     "SDG": "Chargers",
+    "LAC": "Chargers",
     "SEA": "Seahawks",
     "SFO": "49ers",
+    "SF": "49ers",
     "RAM": "Rams",
-    "TB": "Buccaneers",
+    "LA": "Rams",
+    "TAM": "Buccaneers",
+    "TB`": "Buccaneers",
     "OTI": "Titans",
-    "WAS": "Redskins"
+    "TEN": "Titans",
+    "WAS": "Washington",
+
 }
