@@ -28,7 +28,7 @@ team_abbr = {
     "SEA": "Seahawks",
     "SFO": "49ers",
     "RAM": "Rams",
-    "TAM": "Buccaneers",
+    "TB": "Buccaneers",
     "OTI": "Titans",
     "WAS": "Redskins"
 }
