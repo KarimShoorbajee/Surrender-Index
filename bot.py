@@ -63,14 +63,17 @@ while True:
         #there were some new drives since last time I checked
         if (drivecount != c_gms_md[g].dcount):
             c_gms_md[g].dcount = drivecount
+            punt_drive = drivecount
             drive = game_json[g]["drives"][str(c_gms_md[g].dcount)]
             result = drive["result"] 
             plays = drive["plays"]
             if result == "" and not c_gms_md[g].dcount == 1:
+                punt_drive -= 1
                 drive = game_json[g]["drives"][str(c_gms_md[g].dcount-1)]
                 result = drive["result"] 
                 plays = drive["plays"]
-            if result == "Punt":
+            if result == "Punt" and c_gms_md[g].last_punt_drive != punt_drive:
+                c_gms_md[g].last_punt_drive =  punt_drive
                 last_play_key = list(plays)[-1]
                 last_play = plays[last_play_key]
                 location = last_play["yrdln"]
