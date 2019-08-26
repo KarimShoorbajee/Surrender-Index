@@ -119,8 +119,11 @@ while True:
         f.write(resp.content)
 
     #parse it 
-    tree = ET.parse('week_games.xml')
-    root = tree.getroot()
+    try:
+        tree = ET.parse('week_games.xml')
+        root = tree.getroot()
+    except ET.ParseError:
+        continue
 
     #check if there are new games
     games = root.find('gms')
