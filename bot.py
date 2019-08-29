@@ -6,6 +6,7 @@ import game
 from config import key,key_secret,token,token_secret
 from sindex_lib import surrender_index
 from team_dict import team_abbr
+import sqlite3
 
 
 def get_clean_time(game_clock):
@@ -40,6 +41,9 @@ def get_nice_location(location, punt_team):
 
 
 
+conn = sqlite3.connect('punts.db')
+c = conn.cursor()
+
 auth = tweepy.OAuthHandler(key,key_secret)
 auth.set_access_token(token,token_secret)
 
@@ -53,8 +57,8 @@ c_week_gms = {}
 c_gms = {}
 # the c_gms metadata
 c_gms_md = {}
-while True:
 
+while True:
     # check if there have been any punts and if there have been tweet about it!
     for g in c_gms_md:
         resp = requests.get(c_gms_md[g].url)
@@ -110,6 +114,10 @@ while True:
                         round(sindex,2)
                     )
                 )
+
+                punt_tweet_json = punt_tweet._json
+                c.execute("INSERT INTO punts (team, opp, quarter, time, to_go, location, score) VALUES (?, ?, ?, ?, ?, ?, ?,);", (punt_team,opp_team,quarter,game_clock,dist,location,score))
+                conn.commit()
 
 
                 
