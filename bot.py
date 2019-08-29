@@ -116,7 +116,7 @@ while True:
                 )
 
                 punt_tweet_json = punt_tweet._json
-                c.execute("INSERT INTO punts (team, opp, quarter, time, to_go, location, score) VALUES (?, ?, ?, ?, ?, ?, ?,);", (punt_team,opp_team,quarter,game_clock,dist,location,score))
+                c.execute("INSERT INTO punts (team, opp, quarter, time, to_go, location, score,tweet_id) VALUES (?, ?, ?, ?, ?, ?, ?,?);", (punt_team,opp_team,quarter,game_clock,dist,location,score,punt_tweet_json["id"]))
                 conn.commit()
 
 
